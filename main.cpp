@@ -8,7 +8,7 @@
 #include "Producto.h"
 #include "PharmaDron.h"
 #include "MallaRegular.h"
-#include "cliente.h"
+#include "Cliente.h"
 #include "Pedido.h"
 #include <iostream>
 #include <cstdlib>

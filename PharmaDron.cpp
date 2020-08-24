@@ -94,7 +94,7 @@ int PharmaDron::tamTablaHash(std::string fileNameProductos){
     std::string terminos, linea;
     std::set<std::string> setTerminos;   // Terminos de productos
 
-    std::setlocale(LC_ALL,"es_ES.UTF8");
+    setlocale(LC_ALL,"es_ES.UTF8");
 
     // Asociamos el flujo con un fichero y lo abrimos
     fe.open( fileNameProductos );
@@ -142,7 +142,7 @@ bool PharmaDron::cargaProductos(std::string fileNameProductos){
     int codigo;
     int total=0;
     
-    std::setlocale(LC_ALL,"es_ES.UTF8");
+    setlocale(LC_ALL,"es_ES.UTF8");
 
     // Asociamos el flujo con un fichero y lo abrimos
     fe.open( fileNameProductos );
@@ -209,7 +209,7 @@ void PharmaDron::creaClientes(std::string fileNameClientes){
     double longitud, latitud;
     int total=0;
     
-    std::setlocale(LC_ALL,"es_ES.UTF8");
+    setlocale(LC_ALL,"es_ES.UTF8");
     
     // Asociamos el flujo con un fichero y lo abrimos
     fe.open( fileNameClientes );

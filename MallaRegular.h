@@ -59,7 +59,7 @@ class MallaRegular {
 
     float xMin, yMin, xMax, yMax; // Tamaño real global
     float tamaCasillaX, tamaCasillaY; // Tamaño real de cada casilla
-    std::vector<std::vector<Casilla<T>>> mr; // Vector 2D de casillas
+    std::vector<std::vector<Casilla<T> > > mr; // Vector 2D de casillas
     int maxElem; //Maximo de elementos en una casilla de la malla por celda
     int maxElemF; //Maximo de elementos en una casilla de la malla por fila
     int maxElemC; //Maximo de elementos en una casilla de la malla por columna
